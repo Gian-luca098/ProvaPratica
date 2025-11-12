@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: rgb(1, 1, 1);
+    color: rgb(187, 212, 234);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(8, 3, 159);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    font-size: small;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: rgb(0, 174, 255);
+}
+
+.banner {
+    text-align: center;
+    background: linear-gradient(145deg, #0a10bf, #000005);
+    padding: 10px 30px;
+}
+
+img {
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+}
+
+.card {
+    background-color: #030360;
+    border-radius: 10px;
+    width: 300px;
+    display: inline-block;
+    margin: 20px 30px;
+    padding: 25px;
+    vertical-align: top;
+    font-size: larger;
+}
+
+.card a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.cards {
+    padding: 40px 40px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: rgb(8, 3, 159);
+    text-align: center;
+    padding: 15px;
+    font-size: small;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.visivel {
+    display: block !important;
+}
+a:hover {
+    color: rgb(0, 174, 255);
+}
